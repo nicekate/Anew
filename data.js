@@ -3,14 +3,14 @@ const scheduleDataEmbedded = {
   "scraped_at": "2025-07-18T06:30:34.057594",
   "event_name": "OpenSauce 2025",
   "event_url": "https://opensauce.com/agenda/",
-  "event_dates": "July 18-20, 2025",
-  "location": "San Francisco, CA",
-  "description": "A celebration of makers and creators",
+  "event_dates": "2025年7月18-20日",
+  "location": "美国旧金山",
+  "description": "创客与创作者的盛会",
   "days": {
     "friday": {
-      "day_name": "Friday",
-      "date": "July 18, 2025",
-      "theme": "Industry Day",
+      "day_name": "周五",
+      "date": "2025年7月18日",
+      "theme": "产业日",
       "sessions": [
         {
           "time": "09:30 AM",
@@ -390,9 +390,9 @@ const scheduleDataEmbedded = {
       ]
     },
     "saturday": {
-      "day_name": "Saturday",
-      "date": "July 19, 2025",
-      "theme": "Maker Day",
+      "day_name": "周六",
+      "date": "2025年7月19日",
+      "theme": "创客日",
       "sessions": [
         {
           "time": "10:30 AM",
@@ -547,9 +547,9 @@ const scheduleDataEmbedded = {
       ]
     },
     "sunday": {
-      "day_name": "Sunday",
-      "date": "July 20, 2025",
-      "theme": "Creator Day",
+      "day_name": "周日",
+      "date": "2025年7月20日",
+      "theme": "创作者日",
       "sessions": [
         {
           "time": "10:30 AM",
@@ -763,37 +763,37 @@ function convertToBeiJingTime(timeStr, dateStr) {
     // 解析PDT时间
     const timeParts = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
     if (!timeParts) return { time: timeStr, date: dateStr, isNextDay: false };
-
+    
     let hours = parseInt(timeParts[1]);
     const minutes = parseInt(timeParts[2]);
     const ampm = timeParts[3].toUpperCase();
-
+    
     // 转换为24小时制
     if (ampm === 'PM' && hours !== 12) hours += 12;
     if (ampm === 'AM' && hours === 12) hours = 0;
-
+    
     // 解析日期
     const dateObj = new Date(dateStr);
     dateObj.setHours(hours, minutes, 0, 0);
-
+    
     // 转换为北京时间（+15小时）
     const beijingTime = new Date(dateObj.getTime() + (15 * 60 * 60 * 1000));
-
+    
     // 格式化时间
     const beijingHours = beijingTime.getHours();
     const beijingMinutes = beijingTime.getMinutes();
     const beijingAmPm = beijingHours >= 12 ? 'PM' : 'AM';
     const displayHours = beijingHours === 0 ? 12 : (beijingHours > 12 ? beijingHours - 12 : beijingHours);
-
+    
     const timeString = `${displayHours}:${beijingMinutes.toString().padStart(2, '0')} ${beijingAmPm}`;
-    const dateString = beijingTime.toLocaleDateString('en-US', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
+    const dateString = beijingTime.toLocaleDateString('en-US', { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric' 
     });
-
+    
     const isNextDay = beijingTime.toDateString() !== dateObj.toDateString();
-
+    
     return {
         time: timeString,
         date: dateString,

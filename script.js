@@ -30,7 +30,7 @@ async function loadScheduleData() {
         document.getElementById('loading').innerHTML = `
             <div class="error">
                 <i class="fas fa-exclamation-triangle"></i>
-                <p>Error loading schedule data. Please try again later.</p>
+                <p>加载议程数据时出错，请稍后重试。</p>
             </div>
         `;
     }
@@ -143,7 +143,7 @@ function createSessionCard(session, day, index) {
             </div>
             <div class="session-duration">
                 <i class="fas fa-hourglass-half"></i>
-                Duration: ${session.duration}
+                时长: ${session.duration}
             </div>
         </div>
     `;

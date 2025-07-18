@@ -52,6 +52,36 @@ body {
     font-size: 1.1rem;
 }
 
+.official-link {
+    margin-top: 1rem;
+}
+
+.official-agenda-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.official-agenda-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+    text-decoration: none;
+    color: white;
+}
+
+.official-agenda-link i {
+    font-size: 0.9rem;
+}
+
 .event-info {
     display: flex;
     gap: 2rem;
