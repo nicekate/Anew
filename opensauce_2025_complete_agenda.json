@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2025-07-18T05:37:56.709256",
+  "scraped_at": "2025-07-18T06:23:05.760559",
   "event_name": "OpenSauce 2025",
   "event_url": "https://opensauce.com/agenda/",
   "event_dates": "July 18-20, 2025",
@@ -104,6 +104,16 @@
           ]
         },
         {
+          "time": "12:20 PM",
+          "duration": "30 mins",
+          "venue": "Breakout 3",
+          "title": "ROUNDTABLE WITH TYLER CHOU",
+          "description": "Got a legal question? Wondering about the law and creators? Bring your questions, thoughts and ideas to this round-table discussion with creator, lawyer, manager and creator advocate Tyler Chou.",
+          "speakers": [
+            "Tyler Chou"
+          ]
+        },
+        {
           "time": "01:00 PM",
           "duration": "30 mins",
           "venue": "Industry Stage",
@@ -124,6 +134,124 @@
           "speakers": [
             "Jessica Wang",
             "Neil Waller"
+          ]
+        },
+        {
+          "time": "01:55 PM",
+          "duration": "30 mins",
+          "venue": "Industry Stage",
+          "title": "WHAT CREATORS WISH BRANDS KNEW",
+          "description": "Brands love working with creators—until they don't. Misaligned expectations, bad briefs, and clunky approval processes can turn a dream deal into a disaster. In this session, top creators pull back the curtain on what brands get wrong (and right) when collaborating with influencers.",
+          "speakers": [
+            "Cassandra Bankson",
+            "Monica Khan"
+          ]
+        },
+        {
+          "time": "02:25 PM",
+          "duration": "25 mins",
+          "venue": "Industry Stage",
+          "title": "WHAT BRANDS WISH CREATORS KNEW - KAMAL BHANDAL",
+          "description": "What makes a creator stand out—or get cut? Kamal Bhandal, SVP of Global Invisalign Brand at Align Technology, shares what brands really look for, what kills a deal, and how creators can position themselves for long-term partnerships.",
+          "speakers": [
+            "Kamal Bhandal",
+            "Eric Wei"
+          ]
+        },
+        {
+          "time": "02:50 PM",
+          "duration": "30 mins",
+          "venue": "Industry Stage",
+          "title": "THRIVING AS A CREATOR IN THE AGE OF AI",
+          "description": "These creators aren't scared of AI, they're adapting and thriving. 3 top creators share how they are integrating AI into their workflows today, and how they plan to differentiate their content from AI-generated slop tomorrow.",
+          "speakers": [
+            "YC Sun",
+            "Delia Lazarescu",
+            "Rox Codes"
+          ]
+        },
+        {
+          "time": "03:20 PM",
+          "duration": "10 mins",
+          "venue": "Industry Stage",
+          "title": "JOSHUA SCHACHTER ON ANGEL INVESTING",
+          "description": "How Creators can Angel Invest",
+          "speakers": [
+            "Joshua Schachter"
+          ]
+        },
+        {
+          "time": "03:35 PM",
+          "duration": "30 mins",
+          "venue": "Breakout 1",
+          "title": "ROUND TABLE WITH RENE RITCHIE",
+          "description": "Join this round table / AMA with Rene Ritchie to talk YouTube algorithms, creating content and really anything on your mind!",
+          "speakers": [
+            "Todd Beaupré",
+            "Rene Ritchie"
+          ]
+        },
+        {
+          "time": "03:35 PM",
+          "duration": "30 mins",
+          "venue": "Breakout 2",
+          "title": "ROUNDTABLE CONVERSATION: WHAT IS A CREATOR IN THE AGE OF AI",
+          "description": "AI is reshaping the creative process. This roundtable offers an interactive forum for creators, marketers and experts to discuss the practical, personal, and ethical questions raised in 'Thriving as a Creator in the Age of AI.'",
+          "speakers": [
+            "YC Sun",
+            "Dan Perkel"
+          ]
+        },
+        {
+          "time": "03:35 PM",
+          "duration": "30 mins",
+          "venue": "Breakout 3",
+          "title": "ROUND TABLE Q&A: SETTING YOURSELF UP FOR BRAND PARTNERSHIPS SUCCESS",
+          "description": "This facilitated discussion brings creators together to unpack the full brand partnerships journey. Whether you're represented or independent, you'll walk through the entire cycle—from strategy to pitch to execution and renewal.",
+          "speakers": [
+            "Ben Smith"
+          ]
+        },
+        {
+          "time": "04:10 PM",
+          "duration": "30 mins",
+          "venue": "Industry Stage",
+          "title": "EXPLAINING THE UNIVERSE ONE CLICK AT A TIME",
+          "description": "From backyard explosions to big-bang theories, science hits different when it's told by creators who love to tinker, test, and ask 'what if?' This session dives into how hands-on creators and lifelong explainers are turning curiosity into content that sticks.",
+          "speakers": [
+            "Ian Charnas",
+            "Trace Dominguez"
+          ]
+        },
+        {
+          "time": "04:40 PM",
+          "duration": "25 mins",
+          "venue": "Industry Stage",
+          "title": "FROM TECH JOURNALIST TO BRAND INSIDER",
+          "description": "Dan Ackerman spent years running major tech sites, including Gizmodo and CNET. Now he's internal editor-in-chief at MicroCenter. What's it like to go from covering the industry to working inside it?",
+          "speakers": [
+            "Dan Ackerman",
+            "Michael Reeves"
+          ]
+        },
+        {
+          "time": "05:05 PM",
+          "duration": "25 mins",
+          "venue": "Industry Stage",
+          "title": "LIKES DON'T PAY RENT - FIRESIDE CHAT WITH PATREON COO PAIGE FITZGERALD",
+          "description": "This fireside chat with Patreon COO Paige Fitzgerald explores how creators are moving beyond ad models and algorithm churn to build real, recurring revenue.",
+          "speakers": [
+            "Paige Fitzgerald"
+          ]
+        },
+        {
+          "time": "05:30 PM",
+          "duration": "30 mins",
+          "venue": "Industry Stage",
+          "title": "FROM YOUTUBE CLICKBAIT TO REAL ENGINEERING",
+          "description": "We're closing out industry day with a conversation with top creators who are pushing the boundaries of internet innovation through hands-on engineering and practical product development.",
+          "speakers": [
+            "William Osman"
           ]
         }
       ]
