@@ -1,6 +1,6 @@
-// OpenSauce 2025 Schedule Data
+// OpenSauce 2025 Schedule Data with Beijing Time Support
 const scheduleDataEmbedded = {
-  "scraped_at": "2025-07-18T06:23:05.760559",
+  "scraped_at": "2025-07-18T06:30:34.057594",
   "event_name": "OpenSauce 2025",
   "event_url": "https://opensauce.com/agenda/",
   "event_dates": "July 18-20, 2025",
@@ -21,7 +21,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Jim Louderback",
             "William Osman"
-          ]
+          ],
+          "time_pdt": "09:30 AM PDT",
+          "time_beijing": "12:30 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 09:30 AM | Beijing: 12:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "09:40 AM",
@@ -33,7 +39,13 @@ const scheduleDataEmbedded = {
             "Dustin Harris",
             "Jonny Steel",
             "Corey Braun"
-          ]
+          ],
+          "time_pdt": "09:40 AM PDT",
+          "time_beijing": "12:40 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 09:40 AM | Beijing: 12:40 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "10:05 AM",
@@ -47,7 +59,13 @@ const scheduleDataEmbedded = {
             "Brian McManus",
             "Luke Lafreniere",
             "Christian Eveleigh"
-          ]
+          ],
+          "time_pdt": "10:05 AM PDT",
+          "time_beijing": "1:05 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 10:05 AM | Beijing: 1:05 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "10:35 AM",
@@ -58,7 +76,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Jim Louderback",
             "Alex Wellen"
-          ]
+          ],
+          "time_pdt": "10:35 AM PDT",
+          "time_beijing": "1:35 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 10:35 AM | Beijing: 1:35 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "11:00 AM",
@@ -69,7 +93,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "William Osman",
             "Kevin Kelly"
-          ]
+          ],
+          "time_pdt": "11:00 AM PDT",
+          "time_beijing": "2:00 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 11:00 AM | Beijing: 2:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "11:30 AM",
@@ -81,7 +111,13 @@ const scheduleDataEmbedded = {
             "Adam Aleksic",
             "Patrick Lacey",
             "Morgan Sung"
-          ]
+          ],
+          "time_pdt": "11:30 AM PDT",
+          "time_beijing": "2:30 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 11:30 AM | Beijing: 2:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "12:20 PM",
@@ -91,7 +127,13 @@ const scheduleDataEmbedded = {
           "description": "Straight from NASA to our stage, Matthew Dominick answers your boldest, weirdest, and most ambitious space questions - along with talking about what it's like to be a creator in space.",
           "speakers": [
             "Matthew Dominick"
-          ]
+          ],
+          "time_pdt": "12:20 PM PDT",
+          "time_beijing": "3:20 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 12:20 PM | Beijing: 3:20 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "12:20 PM",
@@ -102,7 +144,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Pojo Riegert",
             "Jon Marcu"
-          ]
+          ],
+          "time_pdt": "12:20 PM PDT",
+          "time_beijing": "3:20 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 12:20 PM | Beijing: 3:20 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "12:20 PM",
@@ -112,7 +160,13 @@ const scheduleDataEmbedded = {
           "description": "Got a legal question? Wondering about the law and creators? Bring your questions, thoughts and ideas to this round-table discussion with creator, lawyer, manager and creator advocate Tyler Chou.",
           "speakers": [
             "Tyler Chou"
-          ]
+          ],
+          "time_pdt": "12:20 PM PDT",
+          "time_beijing": "3:20 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 12:20 PM | Beijing: 3:20 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "01:00 PM",
@@ -124,7 +178,13 @@ const scheduleDataEmbedded = {
             "Todd Beaupré",
             "Rene Ritchie",
             "Gwen Miller"
-          ]
+          ],
+          "time_pdt": "01:00 PM PDT",
+          "time_beijing": "4:00 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 01:00 PM | Beijing: 4:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "01:30 PM",
@@ -135,7 +195,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Jessica Wang",
             "Neil Waller"
-          ]
+          ],
+          "time_pdt": "01:30 PM PDT",
+          "time_beijing": "4:30 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 01:30 PM | Beijing: 4:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "01:55 PM",
@@ -146,7 +212,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Cassandra Bankson",
             "Monica Khan"
-          ]
+          ],
+          "time_pdt": "01:55 PM PDT",
+          "time_beijing": "4:55 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 01:55 PM | Beijing: 4:55 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "02:25 PM",
@@ -157,7 +229,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Kamal Bhandal",
             "Eric Wei"
-          ]
+          ],
+          "time_pdt": "02:25 PM PDT",
+          "time_beijing": "5:25 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 02:25 PM | Beijing: 5:25 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "02:50 PM",
@@ -169,7 +247,13 @@ const scheduleDataEmbedded = {
             "YC Sun",
             "Delia Lazarescu",
             "Rox Codes"
-          ]
+          ],
+          "time_pdt": "02:50 PM PDT",
+          "time_beijing": "5:50 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 02:50 PM | Beijing: 5:50 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "03:20 PM",
@@ -179,7 +263,13 @@ const scheduleDataEmbedded = {
           "description": "How Creators can Angel Invest",
           "speakers": [
             "Joshua Schachter"
-          ]
+          ],
+          "time_pdt": "03:20 PM PDT",
+          "time_beijing": "6:20 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 03:20 PM | Beijing: 6:20 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "03:35 PM",
@@ -190,7 +280,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Todd Beaupré",
             "Rene Ritchie"
-          ]
+          ],
+          "time_pdt": "03:35 PM PDT",
+          "time_beijing": "6:35 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 03:35 PM | Beijing: 6:35 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "03:35 PM",
@@ -201,7 +297,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "YC Sun",
             "Dan Perkel"
-          ]
+          ],
+          "time_pdt": "03:35 PM PDT",
+          "time_beijing": "6:35 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 03:35 PM | Beijing: 6:35 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "03:35 PM",
@@ -211,7 +313,13 @@ const scheduleDataEmbedded = {
           "description": "This facilitated discussion brings creators together to unpack the full brand partnerships journey. Whether you're represented or independent, you'll walk through the entire cycle—from strategy to pitch to execution and renewal.",
           "speakers": [
             "Ben Smith"
-          ]
+          ],
+          "time_pdt": "03:35 PM PDT",
+          "time_beijing": "6:35 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 03:35 PM | Beijing: 6:35 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "04:10 PM",
@@ -222,7 +330,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Ian Charnas",
             "Trace Dominguez"
-          ]
+          ],
+          "time_pdt": "04:10 PM PDT",
+          "time_beijing": "7:10 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 04:10 PM | Beijing: 7:10 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "04:40 PM",
@@ -233,7 +347,13 @@ const scheduleDataEmbedded = {
           "speakers": [
             "Dan Ackerman",
             "Michael Reeves"
-          ]
+          ],
+          "time_pdt": "04:40 PM PDT",
+          "time_beijing": "7:40 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 04:40 PM | Beijing: 7:40 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "05:05 PM",
@@ -243,7 +363,13 @@ const scheduleDataEmbedded = {
           "description": "This fireside chat with Patreon COO Paige Fitzgerald explores how creators are moving beyond ad models and algorithm churn to build real, recurring revenue.",
           "speakers": [
             "Paige Fitzgerald"
-          ]
+          ],
+          "time_pdt": "05:05 PM PDT",
+          "time_beijing": "8:05 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 05:05 PM | Beijing: 8:05 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "05:30 PM",
@@ -253,7 +379,13 @@ const scheduleDataEmbedded = {
           "description": "We're closing out industry day with a conversation with top creators who are pushing the boundaries of internet innovation through hands-on engineering and practical product development.",
           "speakers": [
             "William Osman"
-          ]
+          ],
+          "time_pdt": "05:30 PM PDT",
+          "time_beijing": "8:30 AM CST",
+          "date_pdt": "July 18, 2025",
+          "date_beijing": "July 19, 2025",
+          "timezone_note": "PDT: 05:30 PM | Beijing: 8:30 AM CST (+1 day)",
+          "beijing_next_day": true
         }
       ]
     },
@@ -268,7 +400,13 @@ const scheduleDataEmbedded = {
           "venue": "Main Stage",
           "title": "SAFETY THIRD: LIVE!",
           "description": "Safety Third but it's LIVE! The hosts (and some guests) share stories and rant while pretending to talk about science.",
-          "speakers": []
+          "speakers": [],
+          "time_pdt": "10:30 AM PDT",
+          "time_beijing": "1:30 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 10:30 AM | Beijing: 1:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "11:00 AM",
@@ -276,7 +414,13 @@ const scheduleDataEmbedded = {
           "venue": "Outdoor Stage",
           "title": "INNOVATING IN A NICHE",
           "description": "Some people chase trends, but these creators have built strong, loyal audiences by sticking to what they love and finding others who love it too. Hear how to turn niche ideas into standout content.",
-          "speakers": []
+          "speakers": [],
+          "time_pdt": "11:00 AM PDT",
+          "time_beijing": "2:00 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 11:00 AM | Beijing: 2:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "11:15 AM",
@@ -286,7 +430,13 @@ const scheduleDataEmbedded = {
           "description": "Making one cool thing for a YouTube video is tough enough, but turning that idea into 10,000 units is a whole different challenge. Learn how these creators have taken their custom-built projects from prototype to product.",
           "speakers": [
             "The Hacksmith"
-          ]
+          ],
+          "time_pdt": "11:15 AM PDT",
+          "time_beijing": "2:15 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 11:15 AM | Beijing: 2:15 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "12:00 PM",
@@ -294,7 +444,13 @@ const scheduleDataEmbedded = {
           "venue": "Main Stage",
           "title": "THE BACKYARD - AGAIN",
           "description": "We're back! Join as the cast of The Yard returns for more Backyard Science in the squeak-uel we've all been waiting for.",
-          "speakers": []
+          "speakers": [],
+          "time_pdt": "12:00 PM PDT",
+          "time_beijing": "3:00 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 12:00 PM | Beijing: 3:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "12:45 PM",
@@ -302,7 +458,13 @@ const scheduleDataEmbedded = {
           "venue": "Second Stage",
           "title": "TEAM ROCKET",
           "description": "Join us to nerd out over thrust vectors, propellants, shock diamonds, and more rocket words! It's gonna rock(et).",
-          "speakers": []
+          "speakers": [],
+          "time_pdt": "12:45 PM PDT",
+          "time_beijing": "3:45 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 12:45 PM | Beijing: 3:45 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "01:30 PM",
@@ -310,7 +472,13 @@ const scheduleDataEmbedded = {
           "venue": "Second Stage",
           "title": "COULD AI MAKE THIS PANEL?",
           "description": "It - made - this - description!",
-          "speakers": []
+          "speakers": [],
+          "time_pdt": "01:30 PM PDT",
+          "time_beijing": "4:30 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 01:30 PM | Beijing: 4:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "01:45 PM",
@@ -320,7 +488,13 @@ const scheduleDataEmbedded = {
           "description": "Walking is overrated. This gang of creators prefers to drive, fly and float their way around.",
           "speakers": [
             "Peter Sripol"
-          ]
+          ],
+          "time_pdt": "01:45 PM PDT",
+          "time_beijing": "4:45 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 01:45 PM | Beijing: 4:45 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "02:00 PM",
@@ -330,7 +504,13 @@ const scheduleDataEmbedded = {
           "description": "It doesn't get more live than this. Chat with top streaming creators in this Q&A panel. Questions for the panel must be submitted in advance via the event app.",
           "speakers": [
             "Bao The Whale"
-          ]
+          ],
+          "time_pdt": "02:00 PM PDT",
+          "time_beijing": "5:00 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 02:00 PM | Beijing: 5:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "03:00 PM",
@@ -340,7 +520,13 @@ const scheduleDataEmbedded = {
           "description": "Trapped in an entry level job, creators are forced to innovate at the will of an evil corporate overlord. Watch as they navigate a game of ethics, corporate bureaucracy, and the laws of physics.",
           "speakers": [
             "Colin Furze"
-          ]
+          ],
+          "time_pdt": "03:00 PM PDT",
+          "time_beijing": "6:00 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 03:00 PM | Beijing: 6:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "05:00 PM",
@@ -350,7 +536,13 @@ const scheduleDataEmbedded = {
           "description": "From failed first layers, to funky filaments, and a billion Benchys: these creators' and their 3D printing opinions are like onions (they have layers).",
           "speakers": [
             "CNC Kitchen"
-          ]
+          ],
+          "time_pdt": "05:00 PM PDT",
+          "time_beijing": "8:00 AM CST",
+          "date_pdt": "July 19, 2025",
+          "date_beijing": "July 20, 2025",
+          "timezone_note": "PDT: 05:00 PM | Beijing: 8:00 AM CST (+1 day)",
+          "beijing_next_day": true
         }
       ]
     },
@@ -372,7 +564,13 @@ const scheduleDataEmbedded = {
             "Grady Hillhouse",
             "Skip the Tutorial",
             "Trace Dominguez (Moderator)"
-          ]
+          ],
+          "time_pdt": "10:30 AM PDT",
+          "time_beijing": "1:30 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 10:30 AM | Beijing: 1:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "10:30 AM",
@@ -386,7 +584,13 @@ const scheduleDataEmbedded = {
             "Sam Wickert",
             "Brendan Forde",
             "Wren (Moderator)"
-          ]
+          ],
+          "time_pdt": "10:30 AM PDT",
+          "time_beijing": "1:30 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 10:30 AM | Beijing: 1:30 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "11:00 AM",
@@ -399,7 +603,13 @@ const scheduleDataEmbedded = {
             "Emily Graslie",
             "TierZoo",
             "Hank Green (Moderator)"
-          ]
+          ],
+          "time_pdt": "11:00 AM PDT",
+          "time_beijing": "2:00 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 11:00 AM | Beijing: 2:00 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "11:15 AM",
@@ -414,7 +624,13 @@ const scheduleDataEmbedded = {
             "Luke Muscat",
             "Jabrils",
             "Juniper Dev (Moderator)"
-          ]
+          ],
+          "time_pdt": "11:15 AM PDT",
+          "time_beijing": "2:15 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 11:15 AM | Beijing: 2:15 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "12:45 PM",
@@ -434,7 +650,13 @@ const scheduleDataEmbedded = {
             "ElectroBOOM",
             "Technology Connections",
             "Ludwig (Moderator)"
-          ]
+          ],
+          "time_pdt": "12:45 PM PDT",
+          "time_beijing": "3:45 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 12:45 PM | Beijing: 3:45 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "02:15 PM",
@@ -449,7 +671,13 @@ const scheduleDataEmbedded = {
             "LilyPichu",
             "Pokimane",
             "The Backyard Scientist (Moderator)"
-          ]
+          ],
+          "time_pdt": "02:15 PM PDT",
+          "time_beijing": "5:15 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 02:15 PM | Beijing: 5:15 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "03:15 PM",
@@ -465,7 +693,13 @@ const scheduleDataEmbedded = {
             "Quiet Nerd",
             "How To Make Everything",
             "William Osman (Moderator)"
-          ]
+          ],
+          "time_pdt": "03:15 PM PDT",
+          "time_beijing": "6:15 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 03:15 PM | Beijing: 6:15 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "04:15 PM",
@@ -480,7 +714,13 @@ const scheduleDataEmbedded = {
             "Hbomberguy",
             "Ted Nivison",
             "BPS.space (Moderator)"
-          ]
+          ],
+          "time_pdt": "04:15 PM PDT",
+          "time_beijing": "7:15 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 04:15 PM | Beijing: 7:15 AM CST (+1 day)",
+          "beijing_next_day": true
         },
         {
           "time": "05:15 PM",
@@ -497,9 +737,66 @@ const scheduleDataEmbedded = {
             "The Backyard Scientist",
             "Emily The Engineer",
             "William Osman (Moderator)"
-          ]
+          ],
+          "time_pdt": "05:15 PM PDT",
+          "time_beijing": "8:15 AM CST",
+          "date_pdt": "July 20, 2025",
+          "date_beijing": "July 21, 2025",
+          "timezone_note": "PDT: 05:15 PM | Beijing: 8:15 AM CST (+1 day)",
+          "beijing_next_day": true
         }
       ]
     }
-  }
+  },
+  "timezone_info": {
+    "original_timezone": "Pacific Daylight Time (PDT, UTC-7)",
+    "converted_timezone": "China Standard Time (CST, UTC+8)",
+    "time_difference": "Beijing time is 15 hours ahead of PDT",
+    "venue": "San Mateo County Event Center, San Francisco Bay Area",
+    "note": "All times are converted for Beijing timezone users"
+  },
+  "timezone_updated_at": "2025-07-18T06:30:34.057602"
 };
+
+// 时区转换函数（仅用于数据处理）
+function convertToBeiJingTime(timeStr, dateStr) {
+    // 解析PDT时间
+    const timeParts = timeStr.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    if (!timeParts) return { time: timeStr, date: dateStr, isNextDay: false };
+
+    let hours = parseInt(timeParts[1]);
+    const minutes = parseInt(timeParts[2]);
+    const ampm = timeParts[3].toUpperCase();
+
+    // 转换为24小时制
+    if (ampm === 'PM' && hours !== 12) hours += 12;
+    if (ampm === 'AM' && hours === 12) hours = 0;
+
+    // 解析日期
+    const dateObj = new Date(dateStr);
+    dateObj.setHours(hours, minutes, 0, 0);
+
+    // 转换为北京时间（+15小时）
+    const beijingTime = new Date(dateObj.getTime() + (15 * 60 * 60 * 1000));
+
+    // 格式化时间
+    const beijingHours = beijingTime.getHours();
+    const beijingMinutes = beijingTime.getMinutes();
+    const beijingAmPm = beijingHours >= 12 ? 'PM' : 'AM';
+    const displayHours = beijingHours === 0 ? 12 : (beijingHours > 12 ? beijingHours - 12 : beijingHours);
+
+    const timeString = `${displayHours}:${beijingMinutes.toString().padStart(2, '0')} ${beijingAmPm}`;
+    const dateString = beijingTime.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
+
+    const isNextDay = beijingTime.toDateString() !== dateObj.toDateString();
+
+    return {
+        time: timeString,
+        date: dateString,
+        isNextDay: isNextDay
+    };
+}

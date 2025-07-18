@@ -3,11 +3,13 @@ let scheduleData = null;
 let currentDay = 'friday';
 let currentSession = null;
 let filteredSessions = [];
+let useBeijingTime = true; // 默认使用北京时间
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
     loadScheduleData();
     setupEventListeners();
+    setupTimezoneToggle();
 });
 
 // Load schedule data from embedded data
@@ -130,7 +132,7 @@ function createSessionCard(session, day, index) {
             <div class="session-header">
                 <div class="session-time">
                     <i class="fas fa-clock"></i>
-                    ${session.time}
+                    ${getDisplayTime(session)}
                 </div>
                 <div class="session-venue">${session.venue}</div>
             </div>
@@ -209,7 +211,7 @@ function openSessionModal(day, sessionIndex) {
     
     // Populate modal content
     document.getElementById('modalTitle').textContent = session.title;
-    document.getElementById('modalTime').textContent = session.time;
+    document.getElementById('modalTime').textContent = getDisplayTime(session);
     document.getElementById('modalVenue').textContent = session.venue;
     document.getElementById('modalDuration').textContent = session.duration;
     document.getElementById('modalDescription').textContent = session.description;
@@ -290,7 +292,10 @@ function generateICSContent(sessions, calendarName) {
     ];
     
     sessions.forEach((session, index) => {
-        const eventDate = parseSessionDateTime(session.date, session.time);
+        // 使用北京时间或PDT时间
+        const dateStr = useBeijingTime ? (session.date_beijing || session.date) : (session.date_pdt || session.date);
+        const timeStr = useBeijingTime ? (session.time_beijing || session.time) : (session.time_pdt || session.time);
+        const eventDate = parseSessionDateTime(dateStr, timeStr);
         const endDate = new Date(eventDate.getTime() + parseDuration(session.duration) * 60000);
         
         const uid = `opensauce-2025-${index}-${timestamp}@opensauce.com`;
@@ -376,4 +381,71 @@ function downloadICS(content, filename) {
 function truncateText(text, maxLength) {
     if (text.length <= maxLength) return text;
     return text.substr(0, maxLength) + '...';
+}
+
+// 时区相关函数
+function setupTimezoneToggle() {
+    // 在导航栏添加时区切换按钮
+    const navActions = document.querySelector('.nav-actions');
+    if (navActions) {
+        const timezoneToggle = document.createElement('button');
+        timezoneToggle.id = 'timezone-toggle';
+        timezoneToggle.className = 'export-btn';
+        timezoneToggle.innerHTML = '<i class="fas fa-clock"></i> 切换到PDT时间';
+        timezoneToggle.addEventListener('click', toggleTimezone);
+
+        // 插入到导出按钮后面
+        const exportBtn = navActions.querySelector('.export-btn');
+        navActions.insertBefore(timezoneToggle, exportBtn.nextSibling);
+    }
+}
+
+function toggleTimezone() {
+    useBeijingTime = !useBeijingTime;
+    updateDisplayedTimes();
+
+    // 更新按钮文本
+    const toggleButton = document.getElementById('timezone-toggle');
+    if (toggleButton) {
+        toggleButton.innerHTML = useBeijingTime ?
+            '<i class="fas fa-clock"></i> 切换到PDT时间' :
+            '<i class="fas fa-clock"></i> 切换到北京时间';
+    }
+
+    // 重新渲染当前页面
+    renderDay(currentDay);
+}
+
+function updateDisplayedTimes() {
+    // 更新页面上显示的时间
+    document.querySelectorAll('.session-time').forEach(timeElement => {
+        const sessionCard = timeElement.closest('.session-card');
+        if (sessionCard && sessionCard.sessionData) {
+            const session = sessionCard.sessionData;
+            if (useBeijingTime && session.time_beijing) {
+                timeElement.textContent = session.time_beijing;
+                // 添加跨天提示
+                if (session.beijing_next_day) {
+                    timeElement.title = `北京时间：${session.time_beijing} (次日)`;
+                }
+            } else {
+                timeElement.textContent = session.time_pdt || session.time;
+                timeElement.title = `PDT时间：${session.time}`;
+            }
+        }
+    });
+}
+
+function getDisplayTime(session) {
+    if (useBeijingTime && session.time_beijing) {
+        return session.time_beijing + (session.beijing_next_day ? ' (次日)' : '');
+    }
+    return session.time;
+}
+
+function getDisplayDate(session) {
+    if (useBeijingTime && session.date_beijing) {
+        return session.date_beijing;
+    }
+    return session.date_pdt || session.date;
 }
