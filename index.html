@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenSauce 2025 - Conference Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><i class="fas fa-rocket"></i> OpenSauce 2025</h1>
+                    <p>A celebration of makers and creators</p>
+                </div>
+                <div class="event-info">
+                    <div class="info-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>July 18-20, 2025</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>San Francisco, CA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <div class="day-tabs">
+                    <button class="tab-btn active" data-day="friday">
+                        <i class="fas fa-briefcase"></i>
+                        <span>Friday</span>
+                        <small>Industry Day</small>
+                    </button>
+                    <button class="tab-btn" data-day="saturday">
+                        <i class="fas fa-tools"></i>
+                        <span>Saturday</span>
+                        <small>Maker Day</small>
+                    </button>
+                    <button class="tab-btn" data-day="sunday">
+                        <i class="fas fa-users"></i>
+                        <span>Sunday</span>
+                        <small>Creator Day</small>
+                    </button>
+                </div>
+                <div class="nav-actions">
+                    <button class="export-btn" onclick="exportAllToICS()">
+                        <i class="fas fa-download"></i>
+                        Export All to Calendar
+                    </button>
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="searchInput" placeholder="Search sessions...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Loading State -->
+            <div id="loading" class="loading">
+                <div class="spinner"></div>
+                <p>Loading schedule...</p>
+            </div>
+
+            <!-- Schedule Content -->
+            <div id="scheduleContent" class="schedule-content" style="display: none;">
+                <!-- Day Content will be dynamically inserted here -->
+            </div>
+
+            <!-- No Results -->
+            <div id="noResults" class="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>No sessions found</h3>
+                <p>Try adjusting your search terms</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p>&copy; 2025 OpenSauce Conference. Schedule data scraped and presented by Augment Agent.</p>
+                    <p>Visit <a href="https://opensauce.com" target="_blank">opensauce.com</a> for official information.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/nicekate/Anew" target="_blank">
+                        <i class="fab fa-github"></i> View Source
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Session Modal -->
+    <div id="sessionModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <button class="modal-close" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="session-details">
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span id="modalTime"></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span id="modalVenue"></span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-hourglass-half"></i>
+                        <span id="modalDuration"></span>
+                    </div>
+                </div>
+                <div class="session-description">
+                    <h4>Description</h4>
+                    <p id="modalDescription"></p>
+                </div>
+                <div class="session-speakers" id="modalSpeakers">
+                    <h4>Speakers</h4>
+                    <div class="speakers-list" id="speakersList"></div>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-primary" onclick="exportSessionToICS()">
+                        <i class="fas fa-calendar-plus"></i>
+                        Add to Calendar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
