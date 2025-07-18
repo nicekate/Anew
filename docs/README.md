@@ -16,9 +16,10 @@ A beautiful, interactive web application displaying the complete schedule for Op
 
 The schedule data was scraped from the official OpenSauce website using Playwright and contains:
 
-- **29 total sessions** across 3 days
+- **40 total sessions** across 3 days (22 Friday + 10 Saturday + 9 Sunday)
 - **Detailed session information** including time, venue, speakers, and descriptions
 - **Notable speakers** including NASA Astronaut Matthew Dominick, YouTube team members, and popular creators
+- **Complete Friday schedule** from 9:30 AM to 5:30 PM including afternoon sessions
 
 ## Technology Stack
 
